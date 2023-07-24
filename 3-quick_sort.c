@@ -41,7 +41,7 @@ void quick_sort(int *array, size_t size)
 	{
 		pix = partition(array, size - pix, size, size);
 
-		quick_sort(arr, size - pix);
-		quick_sort(arr, size);
+		quick_sort(array, size - pix);
+		quick_sort(array, size);
 	}
 }
