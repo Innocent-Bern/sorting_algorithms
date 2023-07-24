@@ -39,7 +39,7 @@ void quick_sort(int *array, size_t size)
 
 	if (size > 0)
 	{
-		pix = partition(array, size - pix, size, size);
+		pix = partition(array, 0, size, size);
 
 		quick_sort(array, size - pix);
 		quick_sort(array, size);
